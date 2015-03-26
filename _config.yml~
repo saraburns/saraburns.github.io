@@ -1,0 +1,12 @@
+# Site settings
+title: Sara Burns
+email: sburns at wellesley dot edu
+description: > # this means to ignore newlines until "baseurl:"
+  Welcome to my site! A place to discuss technology, music, and travel.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://saraburns.io" # the base hostname & protocol for your site
+twitter_username: sbu311
+github_username:  saraburns
+
+# Build settings
+markdown: kramdown
