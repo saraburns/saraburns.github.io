@@ -3,3 +3,53 @@ layout: page
 title: Projects
 permalink: /projects/
 ---
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script>
+  $(function() {
+    $( "#tabs" ).tabs();
+  });
+  </script>
+</head>
+<body>
+ 
+<div id="tabs">
+  <ul>
+    <li><a href="#tabs-1">EmotiSphere</a></li>
+    <li><a href="#tabs-2">MIT App Inventor Concept Map</a></li>
+    <li><a href="#tabs-3">Schedule Sculptor</a></li>
+  </ul>
+  <div id="tabs-1">
+    <img src = "http://portalparts.acm.org/2690000/2688809/core/teidp0168-file2.jpg"/>
+    <h3>EmotiSphere</h3>
+    <p>EmotiSphere was created for the class Tangible User Interfaces, as a way to solidify the intangible relationship between emotion and music. It reads in physicval signs of emotion and determines an emotional profile. Then, it plays an algorithmic composition designed to match the emotion of the profile. The EmotiSphere uses Arduino, Processing, and Pure Data, and was accepted as Works in Progress to the <a href="http://tei-conf.org">TEI</a> 2015 Conference at Stanford University. </p>
+<p><strong> Related Links </strong></p>
+<ul>
+<li><a href = "http://cs.wellesley.edu/~sburns/EmotiSphere_web/">Project Page</a></li>
+<li><a href = "http://dl.acm.org/citation.cfm?id=2688809&dl=ACM&coll=DL&CFID=655426458&CFTOKEN=88520426">Extended Abstract</a></li>
+</ul>
+  </div>
+  <div id="tabs-2">
+   <img src = "/assets/ConceptMap.png" />
+   <h3>MIT App Inventor Concept Map</h3>
+   <p>The <a href = "http://cs.wellesley.edu/~sburns/cgi-bin/ai/launchhtml.cgi">Concept Map</a> is an educational tool developed as part of an NSF-sponsored project on <a href = "http://appinventor.mit.edu">MIT App Inventor</a>, a blocks-based mobile development program. The map is designed to visually lay out the concepts encountered in App Inventor in order to bridge the gap between programming in blocks and the CS theory behind it. I built the map independently, using primarily JavaScript and the sigma.js graphing library. The project has been presented at the MIT App Inventor Summit and will be presented at <a href = "http://ccscne.org">CCSCNE</a> 2015.</p>
+<p><strong> Related Links </strong></p>
+<ul><li><a href = "/assets/AppInventorSummitPoster.pdf">Poster</a></li></ul>
+  </div>
+  <div id="tabs-3">
+    <img src = "/assets/schedsculpt.png"/>
+    <h3>Schedule Sculptor</h3>
+    <p>This project was created as a final project for the course CS 230: Data Structures. It was built with Claire Schlenker. The program is written in Java, and allows users to build potential course schedules. A course recommender engine provides courses that will not conflict with the user's current schedule. Schedules can be viewed as they are constructed.</p>
+<p><strong>Related Links</strong></p>
+<ul><li><a href = "https://github.com/saraburns/ScheduleSculptor">Source</a></ul>
+  </div>
+</div>
+ 
+ 
+</body>
+</html>
