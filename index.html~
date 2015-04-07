@@ -4,20 +4,8 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Welcome</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+  <h1 class="page-heading">Welcome!</h1>
+I started this website as a way to motivate myself to engage with the material that I see in my life, both in my studies and in my individual investigations . As a Computer Science major, this material primarily relates to computing and technology, but it doesn't always. I often find that I learn passively, without taking the time to delve deeper, and I think this is detrimental both to my understanding and my power of expression. I don't always think independently, and I would like to remedy that. For the first few months, the blog may be sparse, and it may not be laser-focused, but please bear with me!
+<p>
+<p>If you're curious, I've also included a look at some of the <a href='/projects/'>projects</a> I've been able to work on. Enjoy!</p>
 </div>
